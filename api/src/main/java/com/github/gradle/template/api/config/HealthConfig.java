@@ -22,7 +22,6 @@ public class HealthConfig {
     return new HealthService(healthChecks());
   }
 
-
   @Bean
   HealthController healthController() {
     return new HealthController(healthService());
