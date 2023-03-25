@@ -7,7 +7,10 @@ plugins {
 dependencies {
     implementation(project(":services"))
     implementation(project(":models"))
-    implementation(springLibs.boot.starter.web)
+    implementation(springLibs.boot.starter.web) {
+        exclude(group = "org.springframework.boot", module = "spring-boot-starter-tomcat")
+    }
+    implementation(springLibs.boot.starter.undertow)
     implementation(springLibs.inject)
 
     testImplementation(testLibs.junit.core)

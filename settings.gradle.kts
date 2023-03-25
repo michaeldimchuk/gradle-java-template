@@ -21,6 +21,7 @@ dependencyResolutionManagement {
 
             library("inject", "jakarta.inject", "jakarta.inject-api").versionRef("inject")
             library("boot-starter-web", "org.springframework.boot", "spring-boot-starter-web").versionRef("boot")
+            library("boot-starter-undertow", "org.springframework.boot", "spring-boot-starter-undertow").versionRef("boot")
             library("boot-starter-test", "org.springframework.boot", "spring-boot-starter-test").versionRef("boot")
         }
 

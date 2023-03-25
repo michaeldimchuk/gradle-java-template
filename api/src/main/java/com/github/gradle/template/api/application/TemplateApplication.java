@@ -1,14 +1,10 @@
 package com.github.gradle.template.api.application;
 
-import com.github.gradle.template.api.config.WebConfig;
+import com.github.gradle.template.api.config.TemplateConfig;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 
-@Import({
-    WebConfig.class
-})
-@SpringBootApplication
+@Import(TemplateConfig.class)
 public class TemplateApplication {
   public static void main(String[] args) {
     SpringApplication.run(TemplateApplication.class, args);
