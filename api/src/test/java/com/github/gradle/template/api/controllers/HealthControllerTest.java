@@ -26,7 +26,7 @@ class HealthControllerTest {
   void checkHealthTest(Scenario scenario) {
     var healthService = new HealthService(List.of(new EnvironmentCheck(List.of(scenario.environmentVariable()))));
     var controller = new HealthController(healthService);
-    assertThat(controller.checkHealth().getStatus()).isEqualTo(scenario.expectedStatus());
+    assertThat(controller.checkHealth().status()).isEqualTo(scenario.expectedStatus());
   }
 
   private record Scenario(String environmentVariable, HealthStatus expectedStatus) {}

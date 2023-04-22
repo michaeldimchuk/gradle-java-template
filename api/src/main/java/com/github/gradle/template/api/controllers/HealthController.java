@@ -18,8 +18,6 @@ public class HealthController {
 
   @GetMapping
   HealthResponse checkHealth() {
-    return HealthResponse.builder()
-        .status(healthService.check() ? HealthStatus.OK : HealthStatus.FAILED)
-        .build();
+    return new HealthResponse(healthService.check() ? HealthStatus.OK : HealthStatus.FAILED);
   }
 }

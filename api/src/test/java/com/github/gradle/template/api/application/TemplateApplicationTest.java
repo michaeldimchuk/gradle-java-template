@@ -29,7 +29,7 @@ class TemplateApplicationTest {
     assertThat(response.getStatusCode()).isEqualTo(HttpStatus.OK);
     var body = response.getBody();
     assertThat(body).isNotNull();
-    assertThat(body.getStatus()).isEqualTo(HealthStatus.OK);
+    assertThat(body.status()).isEqualTo(HealthStatus.OK);
   }
 
   private String getUrl(String endpoint) {
