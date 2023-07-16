@@ -7,7 +7,9 @@ include(":project-coverage")
 
 pluginManagement {
     plugins {
-        id("io.freefair.lombok") version "6.6.3"
+        id("nebula.dependency-lock") version "12.7.1"
+        id("io.freefair.lombok") version "8.0.1"
+        id("org.springframework.boot") version "3.1.1"
     }
 }
 
@@ -16,13 +18,34 @@ pluginManagement {
 dependencyResolutionManagement {
     versionCatalogs {
         create("springLibs") {
-            version("boot", "3.0.2")
+            version("boot", "3.0.4")
+            version("swagger", "2.0.4")
+
+            library("boot-starter-web", "org.springframework.boot", "spring-boot-starter-web")
+                .versionRef("boot")
+            library("boot-starter-undertow", "org.springframework.boot", "spring-boot-starter-undertow")
+                .versionRef("boot")
+            library("boot-starter-test", "org.springframework.boot", "spring-boot-starter-test")
+                .versionRef("boot")
+
+            library("swagger-ui", "org.springdoc", "springdoc-openapi-starter-webmvc-ui")
+                .versionRef("swagger")
+            library("swagger-api", "org.springdoc", "springdoc-openapi-starter-webmvc-api")
+                .versionRef("swagger")
+        }
+
+        create("jakartaLibs") {
             version("inject", "2.0.1")
 
-            library("inject", "jakarta.inject", "jakarta.inject-api").versionRef("inject")
-            library("boot-starter-web", "org.springframework.boot", "spring-boot-starter-web").versionRef("boot")
-            library("boot-starter-undertow", "org.springframework.boot", "spring-boot-starter-undertow").versionRef("boot")
-            library("boot-starter-test", "org.springframework.boot", "spring-boot-starter-test").versionRef("boot")
+            library("inject", "jakarta.inject", "jakarta.inject-api")
+                .versionRef("inject")
+        }
+
+        create("swaggerLibs") {
+            version("swagger-core", "2.2.8")
+
+            library("annotations", "io.swagger.core.v3", "swagger-annotations-jakarta")
+                .versionRef("swagger-core")
         }
 
         create("testLibs") {

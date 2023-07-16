@@ -1,0 +1,65 @@
+{
+    "annotationProcessor": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.26"
+        }
+    },
+    "compileClasspath": {
+        "jakarta.inject:jakarta.inject-api": {
+            "locked": "2.0.1"
+        },
+        "org.projectlombok:lombok": {
+            "locked": "1.18.26"
+        }
+    },
+    "jacocoAgent": {
+        "org.jacoco:org.jacoco.agent": {
+            "locked": "0.8.8"
+        }
+    },
+    "jacocoAnt": {
+        "org.jacoco:org.jacoco.ant": {
+            "locked": "0.8.8"
+        }
+    },
+    "lombok": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.26"
+        }
+    },
+    "runtimeClasspath": {
+        "jakarta.inject:jakarta.inject-api": {
+            "locked": "2.0.1"
+        }
+    },
+    "testAnnotationProcessor": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.26"
+        }
+    },
+    "testCompileClasspath": {
+        "jakarta.inject:jakarta.inject-api": {
+            "locked": "2.0.1"
+        },
+        "org.assertj:assertj-core": {
+            "locked": "3.23.1"
+        },
+        "org.junit.jupiter:junit-jupiter": {
+            "locked": "5.9.2"
+        },
+        "org.projectlombok:lombok": {
+            "locked": "1.18.26"
+        }
+    },
+    "testRuntimeClasspath": {
+        "jakarta.inject:jakarta.inject-api": {
+            "locked": "2.0.1"
+        },
+        "org.assertj:assertj-core": {
+            "locked": "3.23.1"
+        },
+        "org.junit.jupiter:junit-jupiter": {
+            "locked": "5.9.2"
+        }
+    }
+}

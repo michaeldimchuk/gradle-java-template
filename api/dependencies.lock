@@ -1,0 +1,175 @@
+{
+    "annotationProcessor": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.26"
+        }
+    },
+    "compileClasspath": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "com.github.gradle.template:services": {
+            "project": true
+        },
+        "jakarta.inject:jakarta.inject-api": {
+            "locked": "2.0.1"
+        },
+        "org.projectlombok:lombok": {
+            "locked": "1.18.26"
+        },
+        "org.springdoc:springdoc-openapi-starter-webmvc-api": {
+            "locked": "2.0.4"
+        },
+        "org.springdoc:springdoc-openapi-starter-webmvc-ui": {
+            "locked": "2.0.4"
+        },
+        "org.springframework.boot:spring-boot-starter-undertow": {
+            "locked": "3.0.4"
+        },
+        "org.springframework.boot:spring-boot-starter-web": {
+            "locked": "3.0.4"
+        }
+    },
+    "jacocoAgent": {
+        "org.jacoco:org.jacoco.agent": {
+            "locked": "0.8.8"
+        }
+    },
+    "jacocoAnt": {
+        "org.jacoco:org.jacoco.ant": {
+            "locked": "0.8.8"
+        }
+    },
+    "lombok": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.26"
+        }
+    },
+    "productionRuntimeClasspath": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "com.github.gradle.template:services": {
+            "project": true
+        },
+        "jakarta.inject:jakarta.inject-api": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "2.0.1"
+        },
+        "org.springdoc:springdoc-openapi-starter-webmvc-api": {
+            "locked": "2.0.4"
+        },
+        "org.springdoc:springdoc-openapi-starter-webmvc-ui": {
+            "locked": "2.0.4"
+        },
+        "org.springframework.boot:spring-boot-starter-undertow": {
+            "locked": "3.0.4"
+        },
+        "org.springframework.boot:spring-boot-starter-web": {
+            "locked": "3.0.4"
+        }
+    },
+    "runtimeClasspath": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "com.github.gradle.template:services": {
+            "project": true
+        },
+        "jakarta.inject:jakarta.inject-api": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "2.0.1"
+        },
+        "org.springdoc:springdoc-openapi-starter-webmvc-api": {
+            "locked": "2.0.4"
+        },
+        "org.springdoc:springdoc-openapi-starter-webmvc-ui": {
+            "locked": "2.0.4"
+        },
+        "org.springframework.boot:spring-boot-starter-undertow": {
+            "locked": "3.0.4"
+        },
+        "org.springframework.boot:spring-boot-starter-web": {
+            "locked": "3.0.4"
+        }
+    },
+    "testAnnotationProcessor": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.26"
+        }
+    },
+    "testCompileClasspath": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "com.github.gradle.template:services": {
+            "project": true
+        },
+        "jakarta.inject:jakarta.inject-api": {
+            "locked": "2.0.1"
+        },
+        "org.assertj:assertj-core": {
+            "locked": "3.23.1"
+        },
+        "org.junit.jupiter:junit-jupiter": {
+            "locked": "5.9.2"
+        },
+        "org.projectlombok:lombok": {
+            "locked": "1.18.26"
+        },
+        "org.springdoc:springdoc-openapi-starter-webmvc-api": {
+            "locked": "2.0.4"
+        },
+        "org.springdoc:springdoc-openapi-starter-webmvc-ui": {
+            "locked": "2.0.4"
+        },
+        "org.springframework.boot:spring-boot-starter-test": {
+            "locked": "3.0.4"
+        },
+        "org.springframework.boot:spring-boot-starter-undertow": {
+            "locked": "3.0.4"
+        },
+        "org.springframework.boot:spring-boot-starter-web": {
+            "locked": "3.0.4"
+        }
+    },
+    "testRuntimeClasspath": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "com.github.gradle.template:services": {
+            "project": true
+        },
+        "jakarta.inject:jakarta.inject-api": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "2.0.1"
+        },
+        "org.assertj:assertj-core": {
+            "locked": "3.23.1"
+        },
+        "org.junit.jupiter:junit-jupiter": {
+            "locked": "5.9.2"
+        },
+        "org.springdoc:springdoc-openapi-starter-webmvc-api": {
+            "locked": "2.0.4"
+        },
+        "org.springdoc:springdoc-openapi-starter-webmvc-ui": {
+            "locked": "2.0.4"
+        },
+        "org.springframework.boot:spring-boot-starter-test": {
+            "locked": "3.0.4"
+        },
+        "org.springframework.boot:spring-boot-starter-undertow": {
+            "locked": "3.0.4"
+        },
+        "org.springframework.boot:spring-boot-starter-web": {
+            "locked": "3.0.4"
+        }
+    }
+}

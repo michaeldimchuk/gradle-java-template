@@ -1,0 +1,51 @@
+{
+    "annotationProcessor": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.26"
+        }
+    },
+    "compileClasspath": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.26"
+        }
+    },
+    "jacocoAgent": {
+        "org.jacoco:org.jacoco.agent": {
+            "locked": "0.8.8"
+        }
+    },
+    "jacocoAnt": {
+        "org.jacoco:org.jacoco.ant": {
+            "locked": "0.8.8"
+        }
+    },
+    "lombok": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.26"
+        }
+    },
+    "testAnnotationProcessor": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.26"
+        }
+    },
+    "testCompileClasspath": {
+        "org.assertj:assertj-core": {
+            "locked": "3.23.1"
+        },
+        "org.junit.jupiter:junit-jupiter": {
+            "locked": "5.9.2"
+        },
+        "org.projectlombok:lombok": {
+            "locked": "1.18.26"
+        }
+    },
+    "testRuntimeClasspath": {
+        "org.assertj:assertj-core": {
+            "locked": "3.23.1"
+        },
+        "org.junit.jupiter:junit-jupiter": {
+            "locked": "5.9.2"
+        }
+    }
+}

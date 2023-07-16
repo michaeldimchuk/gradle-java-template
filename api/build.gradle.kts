@@ -1,6 +1,8 @@
 plugins {
     id("com.github.gradle.template.java-conventions")
+    id("nebula.dependency-lock")
     id("io.freefair.lombok")
+    id("org.springframework.boot")
     jacoco
 }
 
@@ -11,7 +13,9 @@ dependencies {
         exclude(group = "org.springframework.boot", module = "spring-boot-starter-tomcat")
     }
     implementation(springLibs.boot.starter.undertow)
-    implementation(springLibs.inject)
+    implementation(jakartaLibs.inject)
+    implementation(springLibs.swagger.ui)
+    implementation(springLibs.swagger.api)
 
     testImplementation(testLibs.junit.core)
     testImplementation(testLibs.assertj.core)
