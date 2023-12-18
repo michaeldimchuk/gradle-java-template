@@ -20,4 +20,4 @@ verify:
 	./gradlew test jacocoTestCoverageVerification testCodeCoverageReport
 
 run:
-	./gradlew bootRun
+	./gradlew quarkusDev

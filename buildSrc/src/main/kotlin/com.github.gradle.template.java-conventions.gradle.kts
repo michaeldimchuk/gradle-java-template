@@ -20,7 +20,7 @@ repositories {
     */
 }
 
-java.sourceCompatibility = JavaVersion.VERSION_17
+java.sourceCompatibility = JavaVersion.VERSION_21
 
 // The group id that'll be used to publish packages to Maven. This setting will be
 // shared by all projects importing this plugin.

@@ -2,24 +2,32 @@ plugins {
     id("com.github.gradle.template.java-conventions")
     id("nebula.dependency-lock")
     id("io.freefair.lombok")
-    id("org.springframework.boot")
+    id("io.quarkus")
     jacoco
 }
 
+val quarkusVersion = "3.6.3"
+
+
 dependencies {
+    implementation(enforcedPlatform("io.quarkus:quarkus-bom:${quarkusVersion}"))
     implementation(project(":services"))
     implementation(project(":models"))
-    implementation(springLibs.boot.starter.web) {
-        exclude(group = "org.springframework.boot", module = "spring-boot-starter-tomcat")
-    }
-    implementation(springLibs.boot.starter.undertow)
-    implementation(jakartaLibs.inject)
-    implementation(springLibs.swagger.ui)
-    implementation(springLibs.swagger.api)
 
+    implementation("io.quarkus", "quarkus-resteasy-reactive")
+    implementation("io.quarkus", "quarkus-reactive-routes")
+    implementation("io.quarkus", "quarkus-resteasy-reactive-jackson")
+    implementation("io.quarkus", "quarkus-arc")
+    implementation("io.quarkus", "quarkus-smallrye-openapi")
+    implementation("io.quarkus", "quarkus-smallrye-health")
+    implementation(jakartaLibs.inject)
+
+    testImplementation("io.quarkus", "quarkus-junit5")
+    testImplementation("io.rest-assured", "rest-assured")
+    testImplementation(testLibs.junit.launcher)
     testImplementation(testLibs.junit.core)
     testImplementation(testLibs.assertj.core)
-    testImplementation(springLibs.boot.starter.test)
+    testImplementation(testLibs.mockito)
 }
 
 description = "api"

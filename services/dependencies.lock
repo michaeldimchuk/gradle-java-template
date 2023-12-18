@@ -5,11 +5,98 @@
         }
     },
     "compileClasspath": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
         },
         "org.projectlombok:lombok": {
             "locked": "1.18.30"
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "2.0.6"
+        }
+    },
+    "integrationTestAnnotationProcessor": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.30"
+        }
+    },
+    "integrationTestCompileClasspath": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "io.quarkus:quarkus-arc": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-junit5": {
+            "locked": "3.6.3"
+        },
+        "jakarta.inject:jakarta.inject-api": {
+            "locked": "2.0.1"
+        },
+        "org.assertj:assertj-core": {
+            "locked": "3.23.1"
+        },
+        "org.junit.jupiter:junit-jupiter": {
+            "locked": "5.10.1"
+        },
+        "org.junit.platform:junit-platform-launcher": {
+            "locked": "1.10.1"
+        },
+        "org.projectlombok:lombok": {
+            "locked": "1.18.30"
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "2.0.6"
+        }
+    },
+    "integrationTestRuntimeClasspath": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "io.quarkus:quarkus-arc": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-junit5": {
+            "locked": "3.6.3"
+        },
+        "jakarta.inject:jakarta.inject-api": {
+            "locked": "2.0.1"
+        },
+        "org.assertj:assertj-core": {
+            "locked": "3.23.1"
+        },
+        "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:models"
+            ],
+            "locked": "3.1.1"
+        },
+        "org.jboss.logmanager:jboss-logmanager": {
+            "locked": "3.0.2.Final"
+        },
+        "org.jboss.slf4j:slf4j-jboss-logmanager": {
+            "locked": "2.0.0.Final"
+        },
+        "org.junit.jupiter:junit-jupiter": {
+            "locked": "5.10.1"
+        },
+        "org.junit.platform:junit-platform-launcher": {
+            "locked": "1.10.1"
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "2.0.6"
         }
     },
     "jacocoAgent": {
@@ -27,9 +114,376 @@
             "locked": "1.18.30"
         }
     },
-    "runtimeClasspath": {
+    "nativeTestAnnotationProcessor": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.30"
+        }
+    },
+    "nativeTestCompileClasspath": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "io.quarkus:quarkus-arc": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-junit5": {
+            "locked": "3.6.3"
+        },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
+        },
+        "org.assertj:assertj-core": {
+            "locked": "3.23.1"
+        },
+        "org.junit.jupiter:junit-jupiter": {
+            "locked": "5.10.1"
+        },
+        "org.junit.platform:junit-platform-launcher": {
+            "locked": "1.10.1"
+        },
+        "org.projectlombok:lombok": {
+            "locked": "1.18.30"
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "2.0.6"
+        }
+    },
+    "nativeTestRuntimeClasspath": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "io.quarkus:quarkus-arc": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-junit5": {
+            "locked": "3.6.3"
+        },
+        "jakarta.inject:jakarta.inject-api": {
+            "locked": "2.0.1"
+        },
+        "org.assertj:assertj-core": {
+            "locked": "3.23.1"
+        },
+        "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:models"
+            ],
+            "locked": "3.1.1"
+        },
+        "org.jboss.logmanager:jboss-logmanager": {
+            "locked": "3.0.2.Final"
+        },
+        "org.jboss.slf4j:slf4j-jboss-logmanager": {
+            "locked": "2.0.0.Final"
+        },
+        "org.junit.jupiter:junit-jupiter": {
+            "locked": "5.10.1"
+        },
+        "org.junit.platform:junit-platform-launcher": {
+            "locked": "1.10.1"
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "2.0.6"
+        }
+    },
+    "quarkusDev": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        },
+        "jakarta.inject:jakarta.inject-api": {
+            "locked": "2.0.1"
+        },
+        "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:models"
+            ],
+            "locked": "3.1.1"
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "2.0.6"
+        }
+    },
+    "quarkusDevBaseRuntimeClasspathConfiguration": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        },
+        "jakarta.inject:jakarta.inject-api": {
+            "locked": "2.0.1"
+        },
+        "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:models"
+            ],
+            "locked": "3.1.1"
+        },
+        "org.jboss.logmanager:jboss-logmanager": {
+            "locked": "3.0.2.Final"
+        },
+        "org.jboss.slf4j:slf4j-jboss-logmanager": {
+            "locked": "2.0.0.Final"
+        },
+        "org.projectlombok:lombok": {
+            "locked": "1.18.30"
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "2.0.6"
+        }
+    },
+    "quarkusDevRuntimeClasspathConfiguration": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        },
+        "jakarta.inject:jakarta.inject-api": {
+            "locked": "2.0.1"
+        },
+        "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:models"
+            ],
+            "locked": "3.1.1"
+        },
+        "org.jboss.logmanager:jboss-logmanager": {
+            "locked": "3.0.2.Final"
+        },
+        "org.jboss.slf4j:slf4j-jboss-logmanager": {
+            "locked": "2.0.0.Final"
+        },
+        "org.projectlombok:lombok": {
+            "locked": "1.18.30"
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "2.0.6"
+        }
+    },
+    "quarkusDevRuntimeClasspathConfigurationDeployment": {
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        }
+    },
+    "quarkusDevRuntimeClasspathConfigurationPlatform": {
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        }
+    },
+    "quarkusGeneratedSourcesAnnotationProcessor": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.30"
+        }
+    },
+    "quarkusGeneratedSourcesCompileClasspath": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.30"
+        }
+    },
+    "quarkusProdBaseRuntimeClasspathConfiguration": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        },
+        "jakarta.inject:jakarta.inject-api": {
+            "locked": "2.0.1"
+        },
+        "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:models"
+            ],
+            "locked": "3.1.1"
+        },
+        "org.jboss.logmanager:jboss-logmanager": {
+            "locked": "3.0.2.Final"
+        },
+        "org.jboss.slf4j:slf4j-jboss-logmanager": {
+            "locked": "2.0.0.Final"
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "2.0.6"
+        }
+    },
+    "quarkusProdRuntimeClasspathConfiguration": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        },
+        "jakarta.inject:jakarta.inject-api": {
+            "locked": "2.0.1"
+        },
+        "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:models"
+            ],
+            "locked": "3.1.1"
+        },
+        "org.jboss.logmanager:jboss-logmanager": {
+            "locked": "3.0.2.Final"
+        },
+        "org.jboss.slf4j:slf4j-jboss-logmanager": {
+            "locked": "2.0.0.Final"
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "2.0.6"
+        }
+    },
+    "quarkusProdRuntimeClasspathConfigurationDeployment": {
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        }
+    },
+    "quarkusProdRuntimeClasspathConfigurationPlatform": {
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        }
+    },
+    "quarkusTestBaseRuntimeClasspathConfiguration": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "io.quarkus:quarkus-arc": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-junit5": {
+            "locked": "3.6.3"
+        },
+        "jakarta.inject:jakarta.inject-api": {
+            "locked": "2.0.1"
+        },
+        "org.assertj:assertj-core": {
+            "locked": "3.23.1"
+        },
+        "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:models"
+            ],
+            "locked": "3.1.1"
+        },
+        "org.jboss.logmanager:jboss-logmanager": {
+            "locked": "3.0.2.Final"
+        },
+        "org.jboss.slf4j:slf4j-jboss-logmanager": {
+            "locked": "2.0.0.Final"
+        },
+        "org.junit.jupiter:junit-jupiter": {
+            "locked": "5.10.1"
+        },
+        "org.junit.platform:junit-platform-launcher": {
+            "locked": "1.10.1"
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "2.0.6"
+        }
+    },
+    "quarkusTestGeneratedSourcesAnnotationProcessor": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.30"
+        }
+    },
+    "quarkusTestGeneratedSourcesCompileClasspath": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.30"
+        }
+    },
+    "quarkusTestRuntimeClasspathConfiguration": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "io.quarkus:quarkus-arc": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-junit5": {
+            "locked": "3.6.3"
+        },
+        "jakarta.inject:jakarta.inject-api": {
+            "locked": "2.0.1"
+        },
+        "org.assertj:assertj-core": {
+            "locked": "3.23.1"
+        },
+        "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:models"
+            ],
+            "locked": "3.1.1"
+        },
+        "org.jboss.logmanager:jboss-logmanager": {
+            "locked": "3.0.2.Final"
+        },
+        "org.jboss.slf4j:slf4j-jboss-logmanager": {
+            "locked": "2.0.0.Final"
+        },
+        "org.junit.jupiter:junit-jupiter": {
+            "locked": "5.10.1"
+        },
+        "org.junit.platform:junit-platform-launcher": {
+            "locked": "1.10.1"
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "2.0.6"
+        }
+    },
+    "quarkusTestRuntimeClasspathConfigurationDeployment": {
+        "io.quarkus:quarkus-arc-deployment": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-core-deployment": {
+            "locked": "3.6.3"
+        }
+    },
+    "quarkusTestRuntimeClasspathConfigurationPlatform": {
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        }
+    },
+    "runtimeClasspath": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        },
+        "jakarta.inject:jakarta.inject-api": {
+            "locked": "2.0.1"
+        },
+        "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:models"
+            ],
+            "locked": "3.1.1"
+        },
+        "org.jboss.logmanager:jboss-logmanager": {
+            "locked": "3.0.2.Final"
+        },
+        "org.jboss.slf4j:slf4j-jboss-logmanager": {
+            "locked": "2.0.0.Final"
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "2.0.6"
         }
     },
     "testAnnotationProcessor": {
@@ -38,6 +492,18 @@
         }
     },
     "testCompileClasspath": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "io.quarkus:quarkus-arc": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-junit5": {
+            "locked": "3.6.3"
+        },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
         },
@@ -45,21 +511,57 @@
             "locked": "3.23.1"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.9.2"
+            "locked": "5.10.1"
+        },
+        "org.junit.platform:junit-platform-launcher": {
+            "locked": "1.10.1"
         },
         "org.projectlombok:lombok": {
             "locked": "1.18.30"
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "2.0.6"
         }
     },
     "testRuntimeClasspath": {
+        "com.github.gradle.template:models": {
+            "project": true
+        },
+        "io.quarkus:quarkus-arc": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-bom": {
+            "locked": "3.6.3"
+        },
+        "io.quarkus:quarkus-junit5": {
+            "locked": "3.6.3"
+        },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
         },
         "org.assertj:assertj-core": {
             "locked": "3.23.1"
         },
+        "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:models"
+            ],
+            "locked": "3.1.1"
+        },
+        "org.jboss.logmanager:jboss-logmanager": {
+            "locked": "3.0.2.Final"
+        },
+        "org.jboss.slf4j:slf4j-jboss-logmanager": {
+            "locked": "2.0.0.Final"
+        },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.9.2"
+            "locked": "5.10.1"
+        },
+        "org.junit.platform:junit-platform-launcher": {
+            "locked": "1.10.1"
+        },
+        "org.slf4j:slf4j-api": {
+            "locked": "2.0.6"
         }
     }
 }

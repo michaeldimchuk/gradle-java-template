@@ -5,6 +5,9 @@
         }
     },
     "compileClasspath": {
+        "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
+            "locked": "3.1"
+        },
         "org.projectlombok:lombok": {
             "locked": "1.18.30"
         }
@@ -24,28 +27,57 @@
             "locked": "1.18.30"
         }
     },
+    "runtimeClasspath": {
+        "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
+            "locked": "3.1"
+        }
+    },
     "testAnnotationProcessor": {
         "org.projectlombok:lombok": {
             "locked": "1.18.30"
         }
     },
     "testCompileClasspath": {
+        "com.fasterxml.jackson.core:jackson-annotations": {
+            "locked": "2.15.3"
+        },
+        "com.fasterxml.jackson.core:jackson-databind": {
+            "locked": "2.15.3"
+        },
         "org.assertj:assertj-core": {
             "locked": "3.23.1"
         },
+        "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
+            "locked": "3.1"
+        },
         "org.junit.jupiter:junit-jupiter": {
             "locked": "5.9.2"
+        },
+        "org.junit.platform:junit-platform-launcher": {
+            "locked": "1.10.0"
         },
         "org.projectlombok:lombok": {
             "locked": "1.18.30"
         }
     },
     "testRuntimeClasspath": {
+        "com.fasterxml.jackson.core:jackson-annotations": {
+            "locked": "2.15.3"
+        },
+        "com.fasterxml.jackson.core:jackson-databind": {
+            "locked": "2.15.3"
+        },
         "org.assertj:assertj-core": {
             "locked": "3.23.1"
         },
+        "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
+            "locked": "3.1"
+        },
         "org.junit.jupiter:junit-jupiter": {
             "locked": "5.9.2"
+        },
+        "org.junit.platform:junit-platform-launcher": {
+            "locked": "1.10.0"
         }
     }
 }

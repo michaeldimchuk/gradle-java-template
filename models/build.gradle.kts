@@ -6,8 +6,13 @@ plugins {
 }
 
 dependencies {
+    implementation(quarkusLibs.openapi)
+
+    testImplementation(testLibs.junit.launcher)
     testImplementation(testLibs.junit.core)
     testImplementation(testLibs.assertj.core)
+    testImplementation(jacksonLibs.databind)
+    testImplementation(jacksonLibs.annotations)
 }
 
-description = "api"
+description = "models"
