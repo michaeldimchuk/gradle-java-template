@@ -8,7 +8,7 @@ include(":project-coverage")
 pluginManagement {
     plugins {
         id("nebula.dependency-lock") version "12.7.1"
-        id("io.freefair.lombok") version "8.0.1"
+        id("io.freefair.lombok") version "8.4"
         id("org.springframework.boot") version "3.1.1"
     }
 }
