@@ -15,7 +15,6 @@ dependencies {
     implementation(project(":models"))
     implementation(jakartaLibs.inject)
 
-
     implementation(loggingLibs.slf4j.api)
     runtimeOnly(loggingLibs.jboss.slf4j)
     runtimeOnly(loggingLibs.jboss.logger)
