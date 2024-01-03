@@ -9,10 +9,10 @@
             "project": true
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.smallrye.config:smallrye-config-core": {
             "locked": "3.3.4"
@@ -37,19 +37,19 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-config-yaml": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.smallrye.config:smallrye-config-core": {
             "locked": "3.3.4"
@@ -78,19 +78,19 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-config-yaml": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.smallrye.config:smallrye-config-core": {
             "locked": "3.3.4"
@@ -148,19 +148,19 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-config-yaml": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.smallrye.config:smallrye-config-core": {
             "locked": "3.3.4"
@@ -189,19 +189,19 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-config-yaml": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.smallrye.config:smallrye-config-core": {
             "locked": "3.3.4"
@@ -239,10 +239,10 @@
             "project": true
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.smallrye.config:smallrye-config-core": {
             "locked": "3.3.4"
@@ -265,10 +265,10 @@
             "project": true
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.smallrye.config:smallrye-config-core": {
             "locked": "3.3.4"
@@ -300,10 +300,10 @@
             "project": true
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.smallrye.config:smallrye-config-core": {
             "locked": "3.3.4"
@@ -332,15 +332,15 @@
     },
     "quarkusDevRuntimeClasspathConfigurationDeployment": {
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core-deployment": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         }
     },
     "quarkusDevRuntimeClasspathConfigurationPlatform": {
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         }
     },
     "quarkusGeneratedSourcesAnnotationProcessor": {
@@ -358,10 +358,10 @@
             "project": true
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.smallrye.config:smallrye-config-core": {
             "locked": "3.3.4"
@@ -390,10 +390,10 @@
             "project": true
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.smallrye.config:smallrye-config-core": {
             "locked": "3.3.4"
@@ -419,15 +419,15 @@
     },
     "quarkusProdRuntimeClasspathConfigurationDeployment": {
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core-deployment": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         }
     },
     "quarkusProdRuntimeClasspathConfigurationPlatform": {
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         }
     },
     "quarkusTestBaseRuntimeClasspathConfiguration": {
@@ -435,19 +435,19 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-config-yaml": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.smallrye.config:smallrye-config-core": {
             "locked": "3.3.4"
@@ -495,19 +495,19 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-config-yaml": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.smallrye.config:smallrye-config-core": {
             "locked": "3.3.4"
@@ -542,21 +542,21 @@
     },
     "quarkusTestRuntimeClasspathConfigurationDeployment": {
         "io.quarkus:quarkus-arc-deployment": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-config-yaml-deployment": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core-deployment": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         }
     },
     "quarkusTestRuntimeClasspathConfigurationPlatform": {
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         }
     },
     "runtimeClasspath": {
@@ -564,10 +564,10 @@
             "project": true
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.smallrye.config:smallrye-config-core": {
             "locked": "3.3.4"
@@ -601,19 +601,19 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-config-yaml": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.smallrye.config:smallrye-config-core": {
             "locked": "3.3.4"
@@ -642,19 +642,19 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-config-yaml": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.4.1"
+            "locked": "3.4.3"
         },
         "io.smallrye.config:smallrye-config-core": {
             "locked": "3.3.4"

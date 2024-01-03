@@ -9,7 +9,7 @@ pluginManagement {
     plugins {
         id("nebula.dependency-lock") version "12.7.1"
         id("io.freefair.lombok") version "8.4"
-        id("io.quarkus") version "3.4.1"
+        id("io.quarkus") version "3.4.3"
     }
 }
 
