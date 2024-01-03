@@ -1,4 +1,6 @@
 {
+  "store": "Omashu Cabbage Cart",
+  "currency": "USD",
   "name": "Apple",
   "price": 24.33,
   "count": 103

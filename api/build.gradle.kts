@@ -6,7 +6,7 @@ plugins {
     jacoco
 }
 
-val quarkusVersion = "3.6.3"
+val quarkusVersion = "3.4.1"
 
 
 dependencies {
@@ -20,6 +20,9 @@ dependencies {
     implementation("io.quarkus", "quarkus-arc")
     implementation("io.quarkus", "quarkus-smallrye-openapi")
     implementation("io.quarkus", "quarkus-smallrye-health")
+    implementation("io.quarkus", "quarkus-config-yaml")
+    implementation("io.smallrye.config", "smallrye-config-core")
+    implementation("io.smallrye.config", "smallrye-config-crypto")
     implementation(jakartaLibs.inject)
 
     testImplementation("io.quarkus", "quarkus-junit5")

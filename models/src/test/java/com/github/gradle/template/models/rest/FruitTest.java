@@ -18,6 +18,8 @@ class FruitTest {
 
     final var fruit = objectMapper.readValue(stream, Fruit.class);
     assertThat(fruit).isNotNull();
+    assertThat(fruit.store()).isEqualTo("Omashu Cabbage Cart");
+    assertThat(fruit.currency()).isEqualTo("USD");
     assertThat(fruit.name()).isEqualTo("Apple");
     assertThat(fruit.price()).isEqualTo(new BigDecimal("24.33"));
     assertThat(fruit.count()).isEqualTo(103);

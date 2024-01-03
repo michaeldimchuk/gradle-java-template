@@ -19,7 +19,7 @@ class FruitControllerTest {
 
   @Test
   void getCatalogTest() {
-    final var fruit = List.of(new Fruit("Apple", BigDecimal.ONE, 42));
+    final var fruit = List.of(new Fruit("Cool store", "CAD", "Apple", BigDecimal.ONE, 42));
     when(fruitService.getCatalog()).thenReturn(fruit);
 
     assertThat(fruitController.getCatalog()).isEqualTo(fruit);

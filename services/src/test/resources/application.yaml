@@ -1,0 +1,4 @@
+template:
+  store:
+    name: Cool store
+    currency: CAD

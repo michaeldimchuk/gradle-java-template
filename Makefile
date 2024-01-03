@@ -20,4 +20,4 @@ verify:
 	./gradlew test jacocoTestCoverageVerification testCodeCoverageReport
 
 run:
-	./gradlew quarkusDev
+	TEMPLATE_ENCRYPTION_KEY=RERuZTVvYm5mSDFSU2VUZzcxeFNaZw ./gradlew quarkusDev

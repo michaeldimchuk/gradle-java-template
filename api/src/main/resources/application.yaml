@@ -1,0 +1,10 @@
+smallrye:
+  config:
+    secret-handler:
+      aes-gcm-nopadding:
+        encryption-key: RERuZTVvYm5mSDFSU2VUZzcxeFNaZw
+
+template:
+  store:
+    name: ${aes-gcm-nopadding::DF8SUbxxDFNF1lRfFT2bpdCF22Lb9Cq6qpb1EaymkB8_dhIOn-AaJ1M2ok_xvGul}
+    currency: USD

@@ -7,6 +7,12 @@ import java.math.BigDecimal;
 
 public record Fruit(
     @NonNull
+    @Schema(example = "Omashu Cabbage Cart", description = "The name of the store.", required = true)
+    String store,
+    @NonNull
+    @Schema(example = "USD", description = "The currency the price is in.", required = true)
+    String currency,
+    @NonNull
     @Schema(example = "Apple", description = "The name of the fruit.", required = true)
     String name,
     @NonNull

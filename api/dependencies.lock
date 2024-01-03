@@ -12,25 +12,34 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml": {
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.smallrye.config:smallrye-config-core": {
+            "locked": "3.3.4"
+        },
+        "io.smallrye.config:smallrye-config-crypto": {
+            "locked": "3.3.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
@@ -52,31 +61,40 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml": {
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.rest-assured:rest-assured": {
-            "locked": "5.3.2"
+            "locked": "5.3.0"
+        },
+        "io.smallrye.config:smallrye-config-core": {
+            "locked": "3.3.4"
+        },
+        "io.smallrye.config:smallrye-config-crypto": {
+            "locked": "3.3.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
@@ -85,10 +103,10 @@
             "locked": "3.23.1"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.10.1"
+            "locked": "5.9.3"
         },
         "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.10.1"
+            "locked": "1.9.3"
         },
         "org.mockito:mockito-core": {
             "locked": "5.3.1"
@@ -108,34 +126,52 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
             "firstLevelTransitive": [
                 "com.github.gradle.template:services"
             ],
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml": {
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.rest-assured:rest-assured": {
-            "locked": "5.3.2"
+            "locked": "5.3.0"
+        },
+        "io.smallrye.config:smallrye-config-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.3.4"
+        },
+        "io.smallrye.config:smallrye-config-crypto": {
+            "locked": "3.3.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "firstLevelTransitive": [
@@ -165,10 +201,10 @@
             "locked": "2.0.0.Final"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.10.1"
+            "locked": "5.9.3"
         },
         "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.10.1"
+            "locked": "1.9.3"
         },
         "org.mockito:mockito-core": {
             "locked": "5.3.1"
@@ -208,31 +244,40 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml": {
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.rest-assured:rest-assured": {
-            "locked": "5.3.2"
+            "locked": "5.3.0"
+        },
+        "io.smallrye.config:smallrye-config-core": {
+            "locked": "3.3.4"
+        },
+        "io.smallrye.config:smallrye-config-crypto": {
+            "locked": "3.3.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
@@ -241,10 +286,10 @@
             "locked": "3.23.1"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.10.1"
+            "locked": "5.9.3"
         },
         "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.10.1"
+            "locked": "1.9.3"
         },
         "org.mockito:mockito-core": {
             "locked": "5.3.1"
@@ -264,34 +309,52 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
             "firstLevelTransitive": [
                 "com.github.gradle.template:services"
             ],
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml": {
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.rest-assured:rest-assured": {
-            "locked": "5.3.2"
+            "locked": "5.3.0"
+        },
+        "io.smallrye.config:smallrye-config-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.3.4"
+        },
+        "io.smallrye.config:smallrye-config-crypto": {
+            "locked": "3.3.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "firstLevelTransitive": [
@@ -321,10 +384,10 @@
             "locked": "2.0.0.Final"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.10.1"
+            "locked": "5.9.3"
         },
         "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.10.1"
+            "locked": "1.9.3"
         },
         "org.mockito:mockito-core": {
             "locked": "5.3.1"
@@ -347,28 +410,46 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
             "firstLevelTransitive": [
                 "com.github.gradle.template:services"
             ],
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml": {
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.smallrye.config:smallrye-config-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.3.4"
+        },
+        "io.smallrye.config:smallrye-config-crypto": {
+            "locked": "3.3.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "firstLevelTransitive": [
@@ -412,28 +493,46 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
             "firstLevelTransitive": [
                 "com.github.gradle.template:services"
             ],
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml": {
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.smallrye.config:smallrye-config-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.3.4"
+        },
+        "io.smallrye.config:smallrye-config-crypto": {
+            "locked": "3.3.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "firstLevelTransitive": [
@@ -480,28 +579,46 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
             "firstLevelTransitive": [
                 "com.github.gradle.template:services"
             ],
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml": {
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.smallrye.config:smallrye-config-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.3.4"
+        },
+        "io.smallrye.config:smallrye-config-crypto": {
+            "locked": "3.3.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "firstLevelTransitive": [
@@ -539,30 +656,36 @@
     },
     "quarkusDevRuntimeClasspathConfigurationDeployment": {
         "io.quarkus:quarkus-arc-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml-deployment": {
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-core-deployment": {
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         }
     },
     "quarkusDevRuntimeClasspathConfigurationPlatform": {
         "io.quarkus:quarkus-bom": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         }
     },
     "quarkusGeneratedSourcesAnnotationProcessor": {
@@ -586,28 +709,46 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
             "firstLevelTransitive": [
                 "com.github.gradle.template:services"
             ],
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml": {
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.smallrye.config:smallrye-config-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.3.4"
+        },
+        "io.smallrye.config:smallrye-config-crypto": {
+            "locked": "3.3.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "firstLevelTransitive": [
@@ -651,28 +792,46 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
             "firstLevelTransitive": [
                 "com.github.gradle.template:services"
             ],
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml": {
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.smallrye.config:smallrye-config-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.3.4"
+        },
+        "io.smallrye.config:smallrye-config-crypto": {
+            "locked": "3.3.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "firstLevelTransitive": [
@@ -707,30 +866,36 @@
     },
     "quarkusProdRuntimeClasspathConfigurationDeployment": {
         "io.quarkus:quarkus-arc-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml-deployment": {
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-core-deployment": {
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         }
     },
     "quarkusProdRuntimeClasspathConfigurationPlatform": {
         "io.quarkus:quarkus-bom": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         }
     },
     "quarkusTestBaseRuntimeClasspathConfiguration": {
@@ -744,34 +909,52 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
             "firstLevelTransitive": [
                 "com.github.gradle.template:services"
             ],
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml": {
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.rest-assured:rest-assured": {
-            "locked": "5.3.2"
+            "locked": "5.3.0"
+        },
+        "io.smallrye.config:smallrye-config-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.3.4"
+        },
+        "io.smallrye.config:smallrye-config-crypto": {
+            "locked": "3.3.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "firstLevelTransitive": [
@@ -801,10 +984,10 @@
             "locked": "2.0.0.Final"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.10.1"
+            "locked": "5.9.3"
         },
         "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.10.1"
+            "locked": "1.9.3"
         },
         "org.mockito:mockito-core": {
             "locked": "5.3.1"
@@ -837,34 +1020,52 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
             "firstLevelTransitive": [
                 "com.github.gradle.template:services"
             ],
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml": {
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.rest-assured:rest-assured": {
-            "locked": "5.3.2"
+            "locked": "5.3.0"
+        },
+        "io.smallrye.config:smallrye-config-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.3.4"
+        },
+        "io.smallrye.config:smallrye-config-crypto": {
+            "locked": "3.3.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "firstLevelTransitive": [
@@ -894,10 +1095,10 @@
             "locked": "2.0.0.Final"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.10.1"
+            "locked": "5.9.3"
         },
         "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.10.1"
+            "locked": "1.9.3"
         },
         "org.mockito:mockito-core": {
             "locked": "5.3.1"
@@ -911,33 +1112,36 @@
     },
     "quarkusTestRuntimeClasspathConfigurationDeployment": {
         "io.quarkus:quarkus-arc-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml-deployment": {
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-core-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi-deployment": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         }
     },
     "quarkusTestRuntimeClasspathConfigurationPlatform": {
         "io.quarkus:quarkus-bom": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         }
     },
     "runtimeClasspath": {
@@ -951,28 +1155,46 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
             "firstLevelTransitive": [
                 "com.github.gradle.template:services"
             ],
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml": {
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.smallrye.config:smallrye-config-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.3.4"
+        },
+        "io.smallrye.config:smallrye-config-crypto": {
+            "locked": "3.3.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "firstLevelTransitive": [
@@ -1018,31 +1240,40 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml": {
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.rest-assured:rest-assured": {
-            "locked": "5.3.2"
+            "locked": "5.3.0"
+        },
+        "io.smallrye.config:smallrye-config-core": {
+            "locked": "3.3.4"
+        },
+        "io.smallrye.config:smallrye-config-crypto": {
+            "locked": "3.3.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
@@ -1051,10 +1282,10 @@
             "locked": "3.23.1"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.10.1"
+            "locked": "5.9.3"
         },
         "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.10.1"
+            "locked": "1.9.3"
         },
         "org.mockito:mockito-core": {
             "locked": "5.3.1"
@@ -1074,34 +1305,52 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-bom": {
             "firstLevelTransitive": [
                 "com.github.gradle.template:services"
             ],
-            "locked": "3.6.3"
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-config-yaml": {
+            "locked": "3.4.1"
+        },
+        "io.quarkus:quarkus-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-reactive-routes": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-resteasy-reactive-jackson": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-health": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.quarkus:quarkus-smallrye-openapi": {
-            "locked": "3.6.3"
+            "locked": "3.4.1"
         },
         "io.rest-assured:rest-assured": {
-            "locked": "5.3.2"
+            "locked": "5.3.0"
+        },
+        "io.smallrye.config:smallrye-config-core": {
+            "firstLevelTransitive": [
+                "com.github.gradle.template:services"
+            ],
+            "locked": "3.3.4"
+        },
+        "io.smallrye.config:smallrye-config-crypto": {
+            "locked": "3.3.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "firstLevelTransitive": [
@@ -1131,10 +1380,10 @@
             "locked": "2.0.0.Final"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.10.1"
+            "locked": "5.9.3"
         },
         "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.10.1"
+            "locked": "1.9.3"
         },
         "org.mockito:mockito-core": {
             "locked": "5.3.1"
