@@ -41,21 +41,6 @@
         }
     },
     "testCompileClasspath": {
-        "com.fasterxml.jackson.core:jackson-annotations": {
-            "locked": "2.15.3"
-        },
-        "com.fasterxml.jackson.core:jackson-databind": {
-            "locked": "2.15.3"
-        },
-        "org.assertj:assertj-core": {
-            "locked": "3.23.1"
-        },
-        "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.9.2"
-        },
-        "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.10.0"
-        },
         "org.openjdk.jmh:jmh-core": {
             "locked": "1.37"
         },
@@ -64,21 +49,6 @@
         }
     },
     "testRuntimeClasspath": {
-        "com.fasterxml.jackson.core:jackson-annotations": {
-            "locked": "2.15.3"
-        },
-        "com.fasterxml.jackson.core:jackson-databind": {
-            "locked": "2.15.3"
-        },
-        "org.assertj:assertj-core": {
-            "locked": "3.23.1"
-        },
-        "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.9.2"
-        },
-        "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.10.0"
-        },
         "org.openjdk.jmh:jmh-core": {
             "locked": "1.37"
         }
