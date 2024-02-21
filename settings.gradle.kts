@@ -3,6 +3,7 @@ rootProject.name = "gradle-java-template"
 include(":api")
 include(":services")
 include(":models")
+include(":benchmarks")
 include(":project-coverage")
 
 pluginManagement {
@@ -44,6 +45,10 @@ dependencyResolutionManagement {
             version("junit-launcher", "1.10.0")
             version("assertj", "3.23.1")
             version("mockito", "5.3.1")
+            version("jmh", "1.37")
+
+            library("jmh-core", "org.openjdk.jmh", "jmh-core").versionRef("jmh")
+            library("jmh-processor", "org.openjdk.jmh", "jmh-generator-annprocess").versionRef("jmh")
 
             library("junit-launcher", "org.junit.platform", "junit-platform-launcher").versionRef("junit-launcher")
             library("junit-core", "org.junit.jupiter", "junit-jupiter").versionRef("junit")

@@ -1,0 +1,86 @@
+{
+    "annotationProcessor": {
+        "org.openjdk.jmh:jmh-generator-annprocess": {
+            "locked": "1.37"
+        },
+        "org.projectlombok:lombok": {
+            "locked": "1.18.30"
+        }
+    },
+    "compileClasspath": {
+        "org.openjdk.jmh:jmh-core": {
+            "locked": "1.37"
+        },
+        "org.projectlombok:lombok": {
+            "locked": "1.18.30"
+        }
+    },
+    "jacocoAgent": {
+        "org.jacoco:org.jacoco.agent": {
+            "locked": "0.8.9"
+        }
+    },
+    "jacocoAnt": {
+        "org.jacoco:org.jacoco.ant": {
+            "locked": "0.8.9"
+        }
+    },
+    "lombok": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.30"
+        }
+    },
+    "runtimeClasspath": {
+        "org.openjdk.jmh:jmh-core": {
+            "locked": "1.37"
+        }
+    },
+    "testAnnotationProcessor": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.30"
+        }
+    },
+    "testCompileClasspath": {
+        "com.fasterxml.jackson.core:jackson-annotations": {
+            "locked": "2.15.3"
+        },
+        "com.fasterxml.jackson.core:jackson-databind": {
+            "locked": "2.15.3"
+        },
+        "org.assertj:assertj-core": {
+            "locked": "3.23.1"
+        },
+        "org.junit.jupiter:junit-jupiter": {
+            "locked": "5.9.2"
+        },
+        "org.junit.platform:junit-platform-launcher": {
+            "locked": "1.10.0"
+        },
+        "org.openjdk.jmh:jmh-core": {
+            "locked": "1.37"
+        },
+        "org.projectlombok:lombok": {
+            "locked": "1.18.30"
+        }
+    },
+    "testRuntimeClasspath": {
+        "com.fasterxml.jackson.core:jackson-annotations": {
+            "locked": "2.15.3"
+        },
+        "com.fasterxml.jackson.core:jackson-databind": {
+            "locked": "2.15.3"
+        },
+        "org.assertj:assertj-core": {
+            "locked": "3.23.1"
+        },
+        "org.junit.jupiter:junit-jupiter": {
+            "locked": "5.9.2"
+        },
+        "org.junit.platform:junit-platform-launcher": {
+            "locked": "1.10.0"
+        },
+        "org.openjdk.jmh:jmh-core": {
+            "locked": "1.37"
+        }
+    }
+}
