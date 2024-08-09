@@ -6,7 +6,7 @@ plugins {
     jacoco
 }
 
-val quarkusVersion = "3.4.3"
+val quarkusVersion = rootProject.ext.get("quarkusVersion")
 
 dependencies {
     implementation(enforcedPlatform("io.quarkus:quarkus-bom:${quarkusVersion}"))
