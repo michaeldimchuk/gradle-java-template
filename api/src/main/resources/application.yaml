@@ -2,7 +2,7 @@ smallrye:
   config:
     secret-handler:
       aes-gcm-nopadding:
-        encryption-key: RERuZTVvYm5mSDFSU2VUZzcxeFNaZw
+        encryption-key: ${ENCRYPTION_KEY}
 
 template:
   store:

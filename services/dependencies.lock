@@ -1,7 +1,7 @@
 {
     "annotationProcessor": {
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         }
     },
     "compileClasspath": {
@@ -9,19 +9,19 @@
             "project": true
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.smallrye.config:smallrye-config-core": {
-            "locked": "3.3.4"
+            "locked": "3.5.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
         },
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         },
         "org.slf4j:slf4j-api": {
             "locked": "2.0.6"
@@ -29,7 +29,7 @@
     },
     "integrationTestAnnotationProcessor": {
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         }
     },
     "integrationTestCompileClasspath": {
@@ -37,37 +37,37 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-config-yaml": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.smallrye.config:smallrye-config-core": {
-            "locked": "3.3.4"
+            "locked": "3.5.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
         },
         "org.assertj:assertj-core": {
-            "locked": "3.23.1"
+            "locked": "3.24.2"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.9.3"
+            "locked": "5.10.1"
         },
         "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.9.3"
+            "locked": "1.10.1"
         },
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         },
         "org.slf4j:slf4j-api": {
             "locked": "2.0.6"
@@ -78,28 +78,28 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-config-yaml": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.smallrye.config:smallrye-config-core": {
-            "locked": "3.3.4"
+            "locked": "3.5.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
         },
         "org.assertj:assertj-core": {
-            "locked": "3.23.1"
+            "locked": "3.24.2"
         },
         "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
             "firstLevelTransitive": [
@@ -108,16 +108,16 @@
             "locked": "3.1.1"
         },
         "org.jboss.logmanager:jboss-logmanager": {
-            "locked": "3.0.2.Final"
+            "locked": "3.0.4.Final"
         },
         "org.jboss.slf4j:slf4j-jboss-logmanager": {
             "locked": "2.0.0.Final"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.9.3"
+            "locked": "5.10.1"
         },
         "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.9.3"
+            "locked": "1.10.1"
         },
         "org.slf4j:slf4j-api": {
             "locked": "2.0.6"
@@ -135,12 +135,12 @@
     },
     "lombok": {
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         }
     },
     "nativeTestAnnotationProcessor": {
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         }
     },
     "nativeTestCompileClasspath": {
@@ -148,37 +148,37 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-config-yaml": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.smallrye.config:smallrye-config-core": {
-            "locked": "3.3.4"
+            "locked": "3.5.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
         },
         "org.assertj:assertj-core": {
-            "locked": "3.23.1"
+            "locked": "3.24.2"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.9.3"
+            "locked": "5.10.1"
         },
         "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.9.3"
+            "locked": "1.10.1"
         },
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         },
         "org.slf4j:slf4j-api": {
             "locked": "2.0.6"
@@ -189,28 +189,28 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-config-yaml": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.smallrye.config:smallrye-config-core": {
-            "locked": "3.3.4"
+            "locked": "3.5.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
         },
         "org.assertj:assertj-core": {
-            "locked": "3.23.1"
+            "locked": "3.24.2"
         },
         "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
             "firstLevelTransitive": [
@@ -219,16 +219,16 @@
             "locked": "3.1.1"
         },
         "org.jboss.logmanager:jboss-logmanager": {
-            "locked": "3.0.2.Final"
+            "locked": "3.0.4.Final"
         },
         "org.jboss.slf4j:slf4j-jboss-logmanager": {
             "locked": "2.0.0.Final"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.9.3"
+            "locked": "5.10.1"
         },
         "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.9.3"
+            "locked": "1.10.1"
         },
         "org.slf4j:slf4j-api": {
             "locked": "2.0.6"
@@ -239,13 +239,13 @@
             "project": true
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.smallrye.config:smallrye-config-core": {
-            "locked": "3.3.4"
+            "locked": "3.5.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
@@ -265,13 +265,13 @@
             "project": true
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.smallrye.config:smallrye-config-core": {
-            "locked": "3.3.4"
+            "locked": "3.5.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
@@ -283,16 +283,21 @@
             "locked": "3.1.1"
         },
         "org.jboss.logmanager:jboss-logmanager": {
-            "locked": "3.0.2.Final"
+            "locked": "3.0.4.Final"
         },
         "org.jboss.slf4j:slf4j-jboss-logmanager": {
             "locked": "2.0.0.Final"
         },
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         },
         "org.slf4j:slf4j-api": {
             "locked": "2.0.6"
+        }
+    },
+    "quarkusDevCompileOnlyConfiguration": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.32"
         }
     },
     "quarkusDevRuntimeClasspathConfiguration": {
@@ -300,13 +305,13 @@
             "project": true
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.smallrye.config:smallrye-config-core": {
-            "locked": "3.3.4"
+            "locked": "3.5.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
@@ -318,13 +323,13 @@
             "locked": "3.1.1"
         },
         "org.jboss.logmanager:jboss-logmanager": {
-            "locked": "3.0.2.Final"
+            "locked": "3.0.4.Final"
         },
         "org.jboss.slf4j:slf4j-jboss-logmanager": {
             "locked": "2.0.0.Final"
         },
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         },
         "org.slf4j:slf4j-api": {
             "locked": "2.0.6"
@@ -332,25 +337,25 @@
     },
     "quarkusDevRuntimeClasspathConfigurationDeployment": {
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core-deployment": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         }
     },
     "quarkusDevRuntimeClasspathConfigurationPlatform": {
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         }
     },
     "quarkusGeneratedSourcesAnnotationProcessor": {
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         }
     },
     "quarkusGeneratedSourcesCompileClasspath": {
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         }
     },
     "quarkusProdBaseRuntimeClasspathConfiguration": {
@@ -358,13 +363,13 @@
             "project": true
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.smallrye.config:smallrye-config-core": {
-            "locked": "3.3.4"
+            "locked": "3.5.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
@@ -376,7 +381,7 @@
             "locked": "3.1.1"
         },
         "org.jboss.logmanager:jboss-logmanager": {
-            "locked": "3.0.2.Final"
+            "locked": "3.0.4.Final"
         },
         "org.jboss.slf4j:slf4j-jboss-logmanager": {
             "locked": "2.0.0.Final"
@@ -385,18 +390,23 @@
             "locked": "2.0.6"
         }
     },
+    "quarkusProdCompileOnlyConfiguration": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.32"
+        }
+    },
     "quarkusProdRuntimeClasspathConfiguration": {
         "com.github.gradle.template:models": {
             "project": true
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.smallrye.config:smallrye-config-core": {
-            "locked": "3.3.4"
+            "locked": "3.5.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
@@ -408,7 +418,7 @@
             "locked": "3.1.1"
         },
         "org.jboss.logmanager:jboss-logmanager": {
-            "locked": "3.0.2.Final"
+            "locked": "3.0.4.Final"
         },
         "org.jboss.slf4j:slf4j-jboss-logmanager": {
             "locked": "2.0.0.Final"
@@ -419,15 +429,15 @@
     },
     "quarkusProdRuntimeClasspathConfigurationDeployment": {
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core-deployment": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         }
     },
     "quarkusProdRuntimeClasspathConfigurationPlatform": {
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         }
     },
     "quarkusTestBaseRuntimeClasspathConfiguration": {
@@ -435,28 +445,28 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-config-yaml": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.smallrye.config:smallrye-config-core": {
-            "locked": "3.3.4"
+            "locked": "3.5.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
         },
         "org.assertj:assertj-core": {
-            "locked": "3.23.1"
+            "locked": "3.24.2"
         },
         "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
             "firstLevelTransitive": [
@@ -465,29 +475,34 @@
             "locked": "3.1.1"
         },
         "org.jboss.logmanager:jboss-logmanager": {
-            "locked": "3.0.2.Final"
+            "locked": "3.0.4.Final"
         },
         "org.jboss.slf4j:slf4j-jboss-logmanager": {
             "locked": "2.0.0.Final"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.9.3"
+            "locked": "5.10.1"
         },
         "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.9.3"
+            "locked": "1.10.1"
         },
         "org.slf4j:slf4j-api": {
             "locked": "2.0.6"
         }
     },
+    "quarkusTestCompileOnlyConfiguration": {
+        "org.projectlombok:lombok": {
+            "locked": "1.18.32"
+        }
+    },
     "quarkusTestGeneratedSourcesAnnotationProcessor": {
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         }
     },
     "quarkusTestGeneratedSourcesCompileClasspath": {
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         }
     },
     "quarkusTestRuntimeClasspathConfiguration": {
@@ -495,28 +510,28 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-config-yaml": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.smallrye.config:smallrye-config-core": {
-            "locked": "3.3.4"
+            "locked": "3.5.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
         },
         "org.assertj:assertj-core": {
-            "locked": "3.23.1"
+            "locked": "3.24.2"
         },
         "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
             "firstLevelTransitive": [
@@ -525,16 +540,16 @@
             "locked": "3.1.1"
         },
         "org.jboss.logmanager:jboss-logmanager": {
-            "locked": "3.0.2.Final"
+            "locked": "3.0.4.Final"
         },
         "org.jboss.slf4j:slf4j-jboss-logmanager": {
             "locked": "2.0.0.Final"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.9.3"
+            "locked": "5.10.1"
         },
         "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.9.3"
+            "locked": "1.10.1"
         },
         "org.slf4j:slf4j-api": {
             "locked": "2.0.6"
@@ -542,21 +557,21 @@
     },
     "quarkusTestRuntimeClasspathConfigurationDeployment": {
         "io.quarkus:quarkus-arc-deployment": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-config-yaml-deployment": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core-deployment": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         }
     },
     "quarkusTestRuntimeClasspathConfigurationPlatform": {
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         }
     },
     "runtimeClasspath": {
@@ -564,13 +579,13 @@
             "project": true
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.smallrye.config:smallrye-config-core": {
-            "locked": "3.3.4"
+            "locked": "3.5.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
@@ -582,7 +597,7 @@
             "locked": "3.1.1"
         },
         "org.jboss.logmanager:jboss-logmanager": {
-            "locked": "3.0.2.Final"
+            "locked": "3.0.4.Final"
         },
         "org.jboss.slf4j:slf4j-jboss-logmanager": {
             "locked": "2.0.0.Final"
@@ -593,7 +608,7 @@
     },
     "testAnnotationProcessor": {
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         }
     },
     "testCompileClasspath": {
@@ -601,37 +616,37 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-config-yaml": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.smallrye.config:smallrye-config-core": {
-            "locked": "3.3.4"
+            "locked": "3.5.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
         },
         "org.assertj:assertj-core": {
-            "locked": "3.23.1"
+            "locked": "3.24.2"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.9.3"
+            "locked": "5.10.1"
         },
         "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.9.3"
+            "locked": "1.10.1"
         },
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         },
         "org.slf4j:slf4j-api": {
             "locked": "2.0.6"
@@ -642,28 +657,28 @@
             "project": true
         },
         "io.quarkus:quarkus-arc": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-bom": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-config-yaml": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-core": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.quarkus:quarkus-junit5": {
-            "locked": "3.4.3"
+            "locked": "3.8.2"
         },
         "io.smallrye.config:smallrye-config-core": {
-            "locked": "3.3.4"
+            "locked": "3.5.4"
         },
         "jakarta.inject:jakarta.inject-api": {
             "locked": "2.0.1"
         },
         "org.assertj:assertj-core": {
-            "locked": "3.23.1"
+            "locked": "3.24.2"
         },
         "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
             "firstLevelTransitive": [
@@ -672,16 +687,16 @@
             "locked": "3.1.1"
         },
         "org.jboss.logmanager:jboss-logmanager": {
-            "locked": "3.0.2.Final"
+            "locked": "3.0.4.Final"
         },
         "org.jboss.slf4j:slf4j-jboss-logmanager": {
             "locked": "2.0.0.Final"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.9.3"
+            "locked": "5.10.1"
         },
         "org.junit.platform:junit-platform-launcher": {
-            "locked": "1.9.3"
+            "locked": "1.10.1"
         },
         "org.slf4j:slf4j-api": {
             "locked": "2.0.6"

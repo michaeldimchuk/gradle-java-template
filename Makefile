@@ -1,3 +1,7 @@
+# Typically this should be set in shell settings, but committed here
+# just to serve as an example.
+export ENCRYPTION_KEY = RERuZTVvYm5mSDFSU2VUZzcxeFNaZw
+
 # Compiles the code.
 build:
 	./gradlew build

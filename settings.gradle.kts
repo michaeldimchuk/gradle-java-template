@@ -9,8 +9,8 @@ include(":project-coverage")
 pluginManagement {
     plugins {
         id("nebula.dependency-lock") version "12.7.1"
-        id("io.freefair.lombok") version "8.4"
-        id("io.quarkus") version "3.4.3"
+        id("io.freefair.lombok") version "8.7.1"
+        id("io.quarkus") version "3.8.2"
     }
 }
 
@@ -33,7 +33,7 @@ dependencyResolutionManagement {
         }
 
         create("jacksonLibs") {
-            version("jackson", "2.15.3")
+            version("jackson", "2.16.1")
 
             library("core", "com.fasterxml.jackson.core", "jackson-core").versionRef("jackson")
             library("databind", "com.fasterxml.jackson.core", "jackson-databind").versionRef("jackson")
@@ -41,10 +41,10 @@ dependencyResolutionManagement {
         }
 
         create("testLibs") {
-            version("junit", "5.9.2")
+            version("junit", "5.10.1")
             version("junit-launcher", "1.10.0")
-            version("assertj", "3.23.1")
-            version("mockito", "5.3.1")
+            version("assertj", "3.24.2")
+            version("mockito", "5.8.0")
             version("jmh", "1.37")
 
             library("jmh-core", "org.openjdk.jmh", "jmh-core").versionRef("jmh")
@@ -58,7 +58,7 @@ dependencyResolutionManagement {
 
         create("loggingLibs") {
             version("slf4j", "2.0.6")
-            version("jboss", "3.0.2.Final")
+            version("jboss", "3.0.4.Final")
             version("jboss-slf4j", "2.0.0.Final")
 
             library("slf4j-api", "org.slf4j", "slf4j-api").versionRef("slf4j")

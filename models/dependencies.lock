@@ -1,7 +1,7 @@
 {
     "annotationProcessor": {
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         }
     },
     "compileClasspath": {
@@ -9,7 +9,7 @@
             "locked": "3.1"
         },
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         }
     },
     "jacocoAgent": {
@@ -24,7 +24,7 @@
     },
     "lombok": {
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         }
     },
     "runtimeClasspath": {
@@ -34,47 +34,47 @@
     },
     "testAnnotationProcessor": {
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         }
     },
     "testCompileClasspath": {
         "com.fasterxml.jackson.core:jackson-annotations": {
-            "locked": "2.15.3"
+            "locked": "2.16.1"
         },
         "com.fasterxml.jackson.core:jackson-databind": {
-            "locked": "2.15.3"
+            "locked": "2.16.1"
         },
         "org.assertj:assertj-core": {
-            "locked": "3.23.1"
+            "locked": "3.24.2"
         },
         "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
             "locked": "3.1"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.9.2"
+            "locked": "5.10.1"
         },
         "org.junit.platform:junit-platform-launcher": {
             "locked": "1.10.0"
         },
         "org.projectlombok:lombok": {
-            "locked": "1.18.30"
+            "locked": "1.18.32"
         }
     },
     "testRuntimeClasspath": {
         "com.fasterxml.jackson.core:jackson-annotations": {
-            "locked": "2.15.3"
+            "locked": "2.16.1"
         },
         "com.fasterxml.jackson.core:jackson-databind": {
-            "locked": "2.15.3"
+            "locked": "2.16.1"
         },
         "org.assertj:assertj-core": {
-            "locked": "3.23.1"
+            "locked": "3.24.2"
         },
         "org.eclipse.microprofile.openapi:microprofile-openapi-api": {
             "locked": "3.1"
         },
         "org.junit.jupiter:junit-jupiter": {
-            "locked": "5.9.2"
+            "locked": "5.10.1"
         },
         "org.junit.platform:junit-platform-launcher": {
             "locked": "1.10.0"
